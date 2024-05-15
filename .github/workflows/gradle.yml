@@ -1,12 +1,13 @@
 name: Java CI with Gradle
 
 on:
+
   push:
     branches: [ main ]
   pull_request:
     branches: [ main ]
   schedule:
-    - cron: '30 12 * * 3' # каждую среду 12:30
+    - cron: '30 12 * * 3' # каждую среду  12:30
     - cron: '0 22 * * 5' # каждую пятницу 22:00
 
 jobs:
