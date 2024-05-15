@@ -6,8 +6,8 @@ on:
   pull_request:
     branches: [ main ]
   schedule:
-    - cron: '30 12 * * 3' # every Wednesday at 12:00
-    - cron: '0 22 * * 5' # every Friday at 22:00
+    - cron: '30 12 * * 3' # каждую среду 12:30
+    - cron: '0 22 * * 5' # каждую пятницу 22:00
 
 jobs:
   build:
